@@ -54,33 +54,4 @@ check_signup_errors();
 </body>
 </html>
 
-/*
-Key Functionalities:
-Session Handling:
 
-Includes config_session.inc.php to start and manage user sessions.
-Stores user data (like user_id and username) upon login.
-Displaying User Status:
-
-Calls output_username() to show the logged-in user's name (if any).
-Login System:
-
-Shows the login form only if the user is not logged in.
-Sends login data (username, password) to login.inc.php.
-Displays errors (wrong password, missing fields) using check_login_errors().
-Shows a success message if login is successful.
-Signup System:
-
-Dynamically generates signup form fields with signup_inputs().
-Sends signup data to signup.inc.php for processing.
-Displays errors (e.g., username taken, invalid email) using check_signup_errors().
-Logout System:
-
-Provides a logout button that sends a request to logout.inc.php.
-Logs out the user by destroying their session.
-Error & Success Messages:
-
-Shows error messages (in red) when login or signup fails.
-Displays success messages (in green) when login or signup is successful.
-
-*/ 
