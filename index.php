@@ -33,6 +33,7 @@ require_once 'includes/login_view.inc.php';
 
 <?php
 check_login_errors();
+//First test
 ?>
 <h3>SignUp</h3>
 <form class="form_signup" action="includes/signup.inc.php" method="post">
